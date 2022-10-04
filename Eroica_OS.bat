@@ -76,6 +76,8 @@ ECHO                Eroica OS Hakkında                (4)
 Echo.
 ECHO                Otomatik Kurulumlar Detaylı Bilgi (5)
 Echo.
+ECHO                Windows Activate                  (6)
+Echo.
 ECHO                Ana Menüye Dön                    (0)
 set menusoru=
 set /p menusoru=
@@ -84,6 +86,7 @@ if %menusoru%==2 goto :ServisAyarlari
 if %menusoru%==3 goto :otomatikkurulumlar
 if %menusoru%==4 goto :EroicaHakkinda
 if %menusoru%==5 goto :OtomatikDetay
+if %menusoru%==6 goto :windowsactivate
 if %menusoru%==0 goto :main
 :: ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
 
